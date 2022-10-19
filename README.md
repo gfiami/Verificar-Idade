@@ -1,3 +1,6 @@
-Esse site checa dois inputs do usuário, referentes a data de nascimento e sexo.
+Esse site checa dois inputs do usuário, referentes ao ano de nascimento e sexo.
 
-O output que o site retorna é a idade da pessoa informada além de uma foto correspondente a uma certa margem de idade e do sexo informado.
+O output é a idade correspondende ao ano informado, juntamente do sexo do indivíduo, além de uma foto correspondente a uma margem de idade e de sexo informado.
+
+Esse trabalho teve como objetivo estudar tags forms html, além da interação JS com o HTML na aquisição dos dados informados pelo usuário.
+
