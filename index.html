@@ -8,7 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header> <h1 class="titulo"> Verificador de idade</h1></header>
+
+    <section class="formulario">
+        <form onsubmit="return false;"id="individuo" action="">
+            <fieldset> 
+                <legend> Informe ano de nascimento</legend>
+                <label for="nascimento"> Ano
+                    <input required id="nascimento" type="number" min='1'>
+                </label>
+        
+            </fieldset> <br>
+            <fieldset>
+                <legend> Informe o Sexo</legend>
+                <label for="masculino"> 
+                    <input required name="sexo" id="masculino" type="radio" value="masculino">
+                        Masculino </label>
+                <label for="feminino"> 
+                    <input required name="sexo" id="feminino" type="radio" value="feminino">
+                        Feminino </label>
+            </fieldset> <br>
+            <button id="Enviar" onclick="checkInformation()" type="submit">Verificar</button>
+        </form> <br>
+
+        <section id="output">
+        </section> <br>
+        <img id="fotoIndividuo" src="" alt="">
+
+    </section>
+
 
 
     <script src="script.js"> </script>

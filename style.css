@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background: rgba(66, 66, 231, 0.671);
+}
+.titulo {
+    text-align: center;
+    margin: 2% 0%;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+.formulario {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    background: white;
+    border-radius: 5%;
+    padding: 1% 7.5%;
+    text-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.726);
+}
+
+img {
+    max-height: 45vh;
+}
