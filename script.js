@@ -47,7 +47,7 @@ function main () {
         if ((idade >= 18) && (idade < 65)) { // adulto homem
             document.getElementById("fotoIndividuo").src = './assets/adultman.png'
         }
-        if ((idade >= 65) && (idade < 122)) { //idoso homem
+        if ((idade >= 65) && (idade <= 122)) { //idoso homem
             document.getElementById("fotoIndividuo").src = './assets/idosoman.png'
         }
     }
@@ -68,7 +68,7 @@ function main () {
         if ((idade >= 18) && (idade < 65)) { // adulto mulher
             document.getElementById("fotoIndividuo").src = './assets/adultwoman.png'
         }
-        if ((idade >= 65) && (idade < 122)) { //idoso mulher
+        if ((idade >= 65) && (idade <= 122)) { //idoso mulher
             document.getElementById("fotoIndividuo").src = './assets/idowoman.png'
         }
     }
